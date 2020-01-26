@@ -127,9 +127,9 @@ void ProcessCommandLine(int argc, char *argv[])
 int main(int argc, char *argv[])
 {
 #ifdef DEBUG
-    std::cout << "Program IsLandscape Debug Version " << szVersion << "\n\n";
+    std::cout << "Program IsLandscape Debug Version " << szVersion << "\n";
 #else
-    std::cout << "Program IsLandscape Release Version " << szVersion << "\n\n";
+    std::cout << "Program IsLandscape Release Version " << szVersion << "\n";
 #endif // DEBUG
 
     ProcessCommandLine(argc, argv);
