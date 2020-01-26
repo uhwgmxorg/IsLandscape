@@ -31,5 +31,4 @@ _ReSharper*/
 #Nuget packages folder
 packages/
 *.ini
-*.png
 !62*.png
