@@ -4,11 +4,11 @@ gets an image file as parameter and returns a 1 (errorcode) if the image is in l
 
 ![img](https://github.com/uhwgmxorg/IsLandscape/blob/master/Doc/65_l_example.jpg)
 
-An example of a lock screen photo from Microsoft
+An example of a lock screen photo from Microsoft (c)
 
 ![img](https://github.com/uhwgmxorg/IsLandscape/blob/master/Doc/65_p_example.jpg)
 
-and the portrait version from Microsoft
+and the portrait version from Microsoft (c)
 
 ![img](https://github.com/uhwgmxorg/IsLandscape/blob/master/Doc/65_3.jpg)
 
@@ -18,7 +18,7 @@ An example of a batch file:
     @ECHO OFF
     SETLOCAL EnableDelayedExpansion
     FOR /r %%i IN (.\*.jpg) DO (
-      %OneDrive%\Bat\MyCppJpgIsLandscape.exe %%i
+      %OneDrive%\Bat\IsLandscape.exe %%i
 	    IF !ERRORLEVEL! EQU 1 ECHO %%i is LANDSCAPE
 	    IF !ERRORLEVEL! EQU 0 DEL %%i
     )
