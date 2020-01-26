@@ -1,4 +1,4 @@
-# IsLandscape.exe
+# IsLandscape.exe  (Under Construction!!)
 
 gets an image file as parameter and returns a 1 (errorcode) if the image is in landscape format and a 0 if the image is in portrait format. To do this the exit() function is used for this.
 
