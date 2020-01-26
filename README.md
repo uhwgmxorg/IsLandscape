@@ -11,3 +11,14 @@ An example of a lock screen photo from Microsoft
 and the portrait version from Microsoft
 
 ![img](https://github.com/uhwgmxorg/IsLandscape/blob/master/Doc/65_3.jpg)
+
+The idea is to be able to distinguish, for example, in a batch between a picture whether it is in landscape or portrait format.
+An example of a batch file:
+
+    @ECHO OFF
+    SETLOCAL EnableDelayedExpansion
+    FOR /r %%i IN (.\*.jpg) DO (
+      %OneDrive%\Bat\MyCppJpgIsLandscape.exe %%i
+	    IF !ERRORLEVEL! EQU 1 ECHO %%i is LANDSCAPE
+	    IF !ERRORLEVEL! EQU 0 DEL %%i
+    )
