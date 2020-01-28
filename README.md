@@ -22,3 +22,6 @@ An example of a batch file:
 	    IF !ERRORLEVEL! EQU 1 ECHO %%i is LANDSCAPE
 	    IF !ERRORLEVEL! EQU 0 DEL %%i
     )
+
+The prerequisites for compiling the project are VS 2017 Windows 10 SDK from 10.0.18362.0 to 10.0.17134.0 or
+you can download a signed Exe version on uhwgmxorg.com [here](http://uhwgmxorg.com/IsLandscape.exe?dl=0)
