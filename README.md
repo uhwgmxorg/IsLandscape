@@ -1,6 +1,6 @@
-# IsLandscape.exe  (Under Construction!!)
+# IsLandscape.exe
 
-gets an image file as parameter and returns a 1 (errorcode) if the image is in landscape format and a 0 if the image is in portrait format. To do this the exit() function is used for this.
+IsLandscape.exe is a small command line utility and gets an image file as parameter and returns 1 (errorcode) if the image is in landscape format and 0 if the image is in portrait format. To do this the [exit()](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/exit-exit-exit) function is used for this.
 
 ![img](https://github.com/uhwgmxorg/IsLandscape/blob/master/Doc/65_l_example.jpg)
 
